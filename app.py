@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import string
 import nltk
+nltk.download('punkt_tab')
 
 try:
     nltk.data.find('tokenizers/punkt')
